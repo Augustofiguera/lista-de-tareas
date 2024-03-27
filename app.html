@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de tareas</title>
+  <link rel="stylesheet" href="app.css">
+  <script src="https://kit.fontawesome.com/026852eac4.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- CONTENEDOR PRINCIPAL -->
+  <div class="todo">
+    <div class="container">
+      <!-- INPUT Y BOTON DE MAS -->
+      
+      <h1 id="titulo">TASK LIST</h1>
+      <form id="form">
+        <div class="botonmas">
+          <input type="text" class="input" placeholder="añade un pendiente" required>
+          <button class="boton_mas" ><i class="fa-solid fa-plus"></i></button>
+        </div>
+      </form>
+      <!-- TAREAS PENDIENTES Y BOTONES -->
+      <p class="textorojo">no puedes agregar una tarea en blanco</p>
+        <div class="todo_app">
+          <ul id="lista">
+            <li>
+              <!-- <div class="lista1">
+                <button class="botonx1"><i class="fa-solid fa-x"></i></button>
+                 <p class="texto2">arreglar la casa</p>
+                 <button class="botonsi1"><i class="fa-solid fa-check"></i></button>
+                  </div> -->
+            </li>
+          </ul>
+        </div>
+        <!-- CONTADORES -->
+          <div class="contadores">
+            <div class="contador1">
+              <p class="text">total: </p>
+              <div class="totales">0</div>
+            </div>
+            <div class="contador2">
+              <p class="text">incompleta: </p>
+              <div class="incompleta">0</div>
+            </div>
+            <div class="contador3">
+              <p class="text">completas: </p>
+              <div class="completas">0</div>
+            </div>
+          </div>
+    </div>
+  </div>
+    <script src="app.js">
+
+    </script>
+</body>
+</html>
+
